@@ -1,5 +1,6 @@
 const leer = require("prompt-sync")();
-
+const NUMERO_ESCARABAJOS="8"
+const  
 /**
  * Ej 1 
  * Cálculo de Pociones
