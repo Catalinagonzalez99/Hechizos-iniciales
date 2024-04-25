@@ -1,5 +1,7 @@
 const leer = require("prompt-sync")();
-
+const PESO_NIMBUS ="nimbus 2000";
+const PLUMAS_NIMBUS ="plumas de fenix";
+const PESO_PLUMA = 0.1; 
 /**
  * Ej 3 
  * Cálculo del Peso de la Nimbus 2000
@@ -10,7 +12,14 @@ const leer = require("prompt-sync")();
 
 
 function main() {
+    console.log("cual es el peso de ",PESO_NIMBUS);
+    pesoNimbus = Number(leer());
+    console.log("cantidad de ",PLUMAS_NIMBUS);
+    plumasNimbus = Number(leer());
+    console.log(pesoNimbus + plumasNimbus *PESO_PLUMA );
     
+
+
 }
 
 
