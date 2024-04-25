@@ -1,4 +1,5 @@
 const leer = require("prompt-sync")();
+const EDAD_CLIENTE ="cliente";
 
 /**
  * Ej 1 
@@ -11,7 +12,16 @@ const leer = require("prompt-sync")();
 
 
 function main() {
-    
+    let edadMinima =11;
+    console.log("edad de",EDAD_CLIENTE);
+    edadCliente = Number(leer()); 
+
+
+    if (edadCliente > edadMinima)
+    console.log("compra la varita magica");
+    else if (edadCliente < edadMinima)
+    console.log("no puedes comprar la varita magica");
+
 }
 
 
