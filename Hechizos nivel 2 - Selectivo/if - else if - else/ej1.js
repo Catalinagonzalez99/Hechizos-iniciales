@@ -1,5 +1,5 @@
 const leer = require("prompt-sync")();
-const EDAD_CLIENTE ="cliente";
+const USUARIO_CLIENTE ="cliente";
 
 /**
  * Ej 1 
@@ -14,7 +14,7 @@ const EDAD_CLIENTE ="cliente";
 function main() {
     let edadMinima =11;
     let edadCliente =0;
-    console.log("edad de",EDAD_CLIENTE);
+    console.log("edad de",USUARIO_CLIENTE);
     edadCliente = Number(leer()); 
 
 
