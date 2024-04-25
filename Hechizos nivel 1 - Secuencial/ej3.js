@@ -12,12 +12,14 @@ const PESO_PLUMA = 0.1;
 
 
 function main() {
+    let pesoNimbus ="0";
+    let plumasNimbus ="0"; 
     console.log("cual es el peso de ",PESO_NIMBUS);
     pesoNimbus = Number(leer());
     console.log("cantidad de ",PLUMAS_NIMBUS);
     plumasNimbus = Number(leer());
     console.log(pesoNimbus + plumasNimbus *PESO_PLUMA );
-    
+
 
 
 }
