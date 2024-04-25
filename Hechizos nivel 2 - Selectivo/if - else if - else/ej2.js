@@ -1,5 +1,5 @@
 const leer = require("prompt-sync")();
-
+const NOTA_EXAMEN ="examen";
 /**
  * Ej 2 
  * Elección de Casa en Hogwarts:
@@ -14,6 +14,10 @@ const leer = require("prompt-sync")();
 
 
 function main() {
+    let casaGryffindor = 90;
+    let casaHufflepuff = 70;
+    let casaRavenclaw = 50;
+    let casaSlytherin = -50;
     
 }
 
