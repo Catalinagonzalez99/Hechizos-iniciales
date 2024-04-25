@@ -1,4 +1,6 @@
 const leer = require("prompt-sync")();
+const EDAD_MAGO ="mago";
+const DIAS_PRACTICA ="dias de practica del hechizo patronus";
 
 /**
  * Ej 4 
@@ -10,7 +12,13 @@ const leer = require("prompt-sync")();
 
 
 function main() {
-    
+    let edadMago ="0";
+    let diasPractica ="0";
+    console.log("edad de ",EDAD_MAGO);
+    edadMago = Number(leer());
+    console.log("cantidad de",DIAS_PRACTICA);
+    diasPractica = Number(leer());
+console.log((edadMago*2)+(diasPractica/2));
 }
 
 
