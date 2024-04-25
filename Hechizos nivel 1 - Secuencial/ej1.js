@@ -1,6 +1,6 @@
 const leer = require("prompt-sync")();
-const NUMERO_ESCARABAJOS="escarabajos de ojo de tigre";
-const NUMERO_RAICES="raices de mandragora"; 
+const INGREDIENTE_NOMBRE_1="escarabajos de ojo de tigre";
+const INGREDIENTE_NOMBRE_2="raices de mandragora"; 
 /**
  * Ej 1 
  * Cálculo de Pociones
@@ -13,9 +13,9 @@ const NUMERO_RAICES="raices de mandragora";
 function main() {
     let numeroEscarabajos ="0";
     let numeroRaices ="0";
-    console.log("cantidad de ",NUMERO_ESCARABAJOS);
+    console.log("cantidad de ",INGREDIENTE_NOMBRE_1);
     numeroEscarabajos = Number(leer());
-    console.log("cantidad de ",NUMERO_RAICES);
+    console.log("cantidad de ",INGREDIENTE_NOMBRE_2);
     numeroRaices = Number(leer());
     console.log(numeroEscarabajos+numeroRaices);
 
