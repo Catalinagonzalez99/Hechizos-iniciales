@@ -13,6 +13,7 @@ const EDAD_CLIENTE ="cliente";
 
 function main() {
     let edadMinima =11;
+    let edadCliente =0;
     console.log("edad de",EDAD_CLIENTE);
     edadCliente = Number(leer()); 
 
