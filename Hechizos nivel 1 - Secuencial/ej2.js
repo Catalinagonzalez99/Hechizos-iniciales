@@ -1,4 +1,6 @@
 const leer = require("prompt-sync")();
+const NUMERO_ESTUDIANTES="estudiantes";
+const NUMERO_LIBROS="libros";
 
 /**
  * Ej 2 
@@ -12,6 +14,18 @@ const leer = require("prompt-sync")();
 
 
 function main() {
+    let numeroEstudiantes ="0";
+    let numeroLibros = "0";
+    console.log("cantidad de ",NUMERO_ESTUDIANTES);
+    numeroEstudiantes = Number(leer());
+    console.log("cantidad de",NUMERO_LIBROS);
+    numeroLibros = Number(leer());
+    numTriplicado = numeroEstudiantes * 3;
+    numDuplicado = numeroLibros * 2;
+    console.log("total",(numeroEstudiantes*3+ numeroLibros*2));
+
+
+
     
 }
 
