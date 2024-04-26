@@ -17,8 +17,15 @@ function main() {
     let casaGryffindor = 90;
     let casaHufflepuff = 70;
     let casaRavenclaw = 50;
-    let casaSlytherin = -50;
+    let casaSlytherin = -(50);
+    console.log("cual es tu puntuacion del",NOTA_EXAMEN);
+    notaExamen = Number(leer());
     
+    if (NOTA_EXAMEN > 70)
+    console.log("pertenece a Gryffindor");
+    else if (NOTA_EXAMEN < 50)
+    console.log("pertenece a Slytherin");
+
 }
 
 
