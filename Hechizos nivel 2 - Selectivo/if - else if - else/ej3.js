@@ -1,4 +1,9 @@
 const leer = require("prompt-sync")();
+const NOMBRE_PLANTA = "planta";
+const PLANTA_VALIDA_1 = "mandragora";
+const PLANTA_VALIDA_2 = "valeriana";
+const PLANTA_NO_VALIDA_1 = "bubotear";
+const PLANTA_NO_VALIDA_2 = "whomping willow";
 
 /**
  * Ej 3 
@@ -13,7 +18,19 @@ const leer = require("prompt-sync")();
 
 
 function main() {
-    
+  
+    console.log("cual es el nombre de la", NOMBRE_PLANTA);
+    nombrePlanta = leer();
+
+
+    if (nombrePlanta == PLANTA_VALIDA_1 || nombrePlanta == PLANTA_VALIDA_2) {
+        console.log("permiso para hacer el examen")
+    }
+        else if ( nombrePlanta == PLANTA_NO_VALIDA_1|| nombrePlanta == PLANTA_NO_VALIDA_2) {
+        console.log("no se le otorga el permiso del examen ");
+    }
+
+
 }
 
 

@@ -1,4 +1,6 @@
 const leer = require("prompt-sync")();
+const NIVEL_DE_VERIFICACION = ("varita magica");
+
 
 /**
  * Ej 4 
@@ -11,7 +13,14 @@ const leer = require("prompt-sync")();
 
 
 function main() {
-    
+    let nivelLealtad = 70;
+    let nivelAstucia = 80;
+    console.log("cual es el nivel de lealtad o astucia de una ",NIVEL_DE_VERIFICACION);
+    nivelDeVerificacion = Number(leer());
+    if (NIVEL_DE_VERIFICACION == nivelAstucia)
+    console.log("");
+    else if ()
+    console.log("");
 }
 
 
