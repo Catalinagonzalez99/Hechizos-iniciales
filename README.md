@@ -8,6 +8,7 @@
     - El codigo a desarrollar **solo** puede estar dentro de la funcion **main**
     - Si es necesario declarar constantes estas deben ir en la parte superior del archivo luego de la importacion de **leer**
  
+ 
 ## Para actualizar con el repositorio original
 1. `git remote add upstream https://github.com/Erick-C3/Hechizos-iniciales.git` (_**solo la primera vez**_)
 1. `git fetch upstream`
